@@ -1,3 +1,6 @@
 class FizzBuzz:
-    def play(number):
-        return 1
+    def play(self, number):
+        if number % 3 == 0:
+            return 'Fizz'
+        else:
+            return number
